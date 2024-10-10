@@ -12,6 +12,7 @@ interface CustomInputProps {
     onClickCalendar?: () => void;
     value?: string | number;
     onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     [x: string]: any;
 }
 
